@@ -1,0 +1,4 @@
+MCSMUIAlertViewCategory
+=======================
+
+This project show you how to add block support to UIAlertView using a category.

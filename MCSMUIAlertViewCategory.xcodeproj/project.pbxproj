@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0933F8D2141788B7005FB127 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0933F8C4141788B7005FB127 /* MainWindow.xib */; };
+		0933F8D3141788B7005FB127 /* MCSMRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0933F8C6141788B7005FB127 /* MCSMRootViewController.xib */; };
+		0933F8D4141788B7005FB127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0933F8C8141788B7005FB127 /* main.m */; };
+		0933F8D5141788B7005FB127 /* MCSMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0933F8CA141788B7005FB127 /* MCSMAppDelegate.m */; };
+		0933F8D6141788B7005FB127 /* MCSMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0933F8CC141788B7005FB127 /* MCSMRootViewController.m */; };
+		0933F8D8141788B7005FB127 /* MCSMUIAlertViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0933F8D0141788B7005FB127 /* MCSMUIAlertViewCategory.m */; };
+		099EB88A1410D33B00F7F1E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099EB8891410D33B00F7F1E0 /* UIKit.framework */; };
+		099EB88C1410D33B00F7F1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099EB88B1410D33B00F7F1E0 /* Foundation.framework */; };
+		099EB88E1410D33B00F7F1E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099EB88D1410D33B00F7F1E0 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0933F8C3141788B7005FB127 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0933F8C5141788B7005FB127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0933F8C7141788B7005FB127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MCSMRootViewController.xib; sourceTree = "<group>"; };
+		0933F8C8141788B7005FB127 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0933F8C9141788B7005FB127 /* MCSMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMAppDelegate.h; sourceTree = "<group>"; };
+		0933F8CA141788B7005FB127 /* MCSMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSMAppDelegate.m; sourceTree = "<group>"; };
+		0933F8CB141788B7005FB127 /* MCSMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMRootViewController.h; sourceTree = "<group>"; };
+		0933F8CC141788B7005FB127 /* MCSMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSMRootViewController.m; sourceTree = "<group>"; };
+		0933F8CD141788B7005FB127 /* MCSMUIAlertViewCategory-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MCSMUIAlertViewCategory-Info.plist"; sourceTree = "<group>"; };
+		0933F8CE141788B7005FB127 /* MCSMUIAlertViewCategory-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCSMUIAlertViewCategory-Prefix.pch"; sourceTree = "<group>"; };
+		0933F8CF141788B7005FB127 /* MCSMUIAlertViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMUIAlertViewCategory.h; sourceTree = "<group>"; };
+		0933F8D0141788B7005FB127 /* MCSMUIAlertViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSMUIAlertViewCategory.m; sourceTree = "<group>"; };
+		099EB8851410D33B00F7F1E0 /* MCSMUIAlertViewCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCSMUIAlertViewCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		099EB8891410D33B00F7F1E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		099EB88B1410D33B00F7F1E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		099EB88D1410D33B00F7F1E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		099EB8821410D33B00F7F1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099EB88A1410D33B00F7F1E0 /* UIKit.framework in Frameworks */,
+				099EB88C1410D33B00F7F1E0 /* Foundation.framework in Frameworks */,
+				099EB88E1410D33B00F7F1E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0933F8C1141788B7005FB127 /* MCSMUIAlertViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				0933F8C2141788B7005FB127 /* InfoPlist.strings */,
+				0933F8C4141788B7005FB127 /* MainWindow.xib */,
+				0933F8C6141788B7005FB127 /* MCSMRootViewController.xib */,
+				0933F8C8141788B7005FB127 /* main.m */,
+				0933F8C9141788B7005FB127 /* MCSMAppDelegate.h */,
+				0933F8CA141788B7005FB127 /* MCSMAppDelegate.m */,
+				0933F8CB141788B7005FB127 /* MCSMRootViewController.h */,
+				0933F8CC141788B7005FB127 /* MCSMRootViewController.m */,
+				0933F8CD141788B7005FB127 /* MCSMUIAlertViewCategory-Info.plist */,
+				0933F8CE141788B7005FB127 /* MCSMUIAlertViewCategory-Prefix.pch */,
+				0933F8CF141788B7005FB127 /* MCSMUIAlertViewCategory.h */,
+				0933F8D0141788B7005FB127 /* MCSMUIAlertViewCategory.m */,
+			);
+			path = MCSMUIAlertViewCategory;
+			sourceTree = "<group>";
+		};
+		099EB87A1410D33B00F7F1E0 = {
+			isa = PBXGroup;
+			children = (
+				0933F8C1141788B7005FB127 /* MCSMUIAlertViewCategory */,
+				099EB8881410D33B00F7F1E0 /* Frameworks */,
+				099EB8861410D33B00F7F1E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		099EB8861410D33B00F7F1E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				099EB8851410D33B00F7F1E0 /* MCSMUIAlertViewCategory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		099EB8881410D33B00F7F1E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099EB8891410D33B00F7F1E0 /* UIKit.framework */,
+				099EB88B1410D33B00F7F1E0 /* Foundation.framework */,
+				099EB88D1410D33B00F7F1E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		099EB8841410D33B00F7F1E0 /* MCSMUIAlertViewCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099EB8A61410D33B00F7F1E0 /* Build configuration list for PBXNativeTarget "MCSMUIAlertViewCategory" */;
+			buildPhases = (
+				099EB8811410D33B00F7F1E0 /* Sources */,
+				099EB8821410D33B00F7F1E0 /* Frameworks */,
+				099EB8831410D33B00F7F1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCSMUIAlertViewCategory;
+			productName = "test-alertview";
+			productReference = 099EB8851410D33B00F7F1E0 /* MCSMUIAlertViewCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		099EB87C1410D33B00F7F1E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Square Bracket Software";
+			};
+			buildConfigurationList = 099EB87F1410D33B00F7F1E0 /* Build configuration list for PBXProject "MCSMUIAlertViewCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 099EB87A1410D33B00F7F1E0;
+			productRefGroup = 099EB8861410D33B00F7F1E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				099EB8841410D33B00F7F1E0 /* MCSMUIAlertViewCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		099EB8831410D33B00F7F1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0933F8D2141788B7005FB127 /* MainWindow.xib in Resources */,
+				0933F8D3141788B7005FB127 /* MCSMRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099EB8811410D33B00F7F1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0933F8D4141788B7005FB127 /* main.m in Sources */,
+				0933F8D5141788B7005FB127 /* MCSMAppDelegate.m in Sources */,
+				0933F8D6141788B7005FB127 /* MCSMRootViewController.m in Sources */,
+				0933F8D8141788B7005FB127 /* MCSMUIAlertViewCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0933F8C2141788B7005FB127 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0933F8C3141788B7005FB127 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0933F8C4141788B7005FB127 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0933F8C5141788B7005FB127 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0933F8C6141788B7005FB127 /* MCSMRootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0933F8C7141788B7005FB127 /* en */,
+			);
+			name = MCSMRootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		099EB8A41410D33B00F7F1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		099EB8A51410D33B00F7F1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		099EB8A71410D33B00F7F1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCSMUIAlertViewCategory/MCSMUIAlertViewCategory-Prefix.pch";
+				INFOPLIST_FILE = "MCSMUIAlertViewCategory/MCSMUIAlertViewCategory-Info.plist";
+				PRODUCT_NAME = MCSMUIAlertViewCategory;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		099EB8A81410D33B00F7F1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCSMUIAlertViewCategory/MCSMUIAlertViewCategory-Prefix.pch";
+				INFOPLIST_FILE = "MCSMUIAlertViewCategory/MCSMUIAlertViewCategory-Info.plist";
+				PRODUCT_NAME = MCSMUIAlertViewCategory;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099EB87F1410D33B00F7F1E0 /* Build configuration list for PBXProject "MCSMUIAlertViewCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099EB8A41410D33B00F7F1E0 /* Debug */,
+				099EB8A51410D33B00F7F1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099EB8A61410D33B00F7F1E0 /* Build configuration list for PBXNativeTarget "MCSMUIAlertViewCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099EB8A71410D33B00F7F1E0 /* Debug */,
+				099EB8A81410D33B00F7F1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 099EB87C1410D33B00F7F1E0 /* Project object */;
+}
